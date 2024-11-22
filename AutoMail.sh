@@ -53,7 +53,7 @@ echo "$USER_NAME:$MAIL_PASS" | sudo chpasswd
 
 # Configurar firewall UFW
 echo "Configurando el firewall UFW..."
-sudo ufw allow "OpenSSH"
+sudo ufw allow ssh
 sudo ufw allow 25
 sudo ufw allow 143
 sudo ufw allow 110
